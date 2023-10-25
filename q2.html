@@ -3,17 +3,37 @@
 
 <head>
     <title>Question 2</title>
-    <!--
-a) Write a short article with appropriate headings in html that describes the key differences between writing in google docs and in an html document.
-b) Use Google fonts and an embedded stylesheet to set the default text font face to inter and all heading text to roboto.
-    -->
+    <!-- Linking Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@700&display=swap">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif; /* Setting default text font to Inter */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto', sans-serif; /* Setting heading text font to Roboto */
+        }
+    </style>
 </head>
 
 <body>
-    <x-markdown2html>
-Write a short article here
-    </x-markdown2html>
-    <script src="https://rhildred.github.io/custom-element/custom-element.js"></script>
+    <h1>Differences Between Writing in Google Docs and HTML Documents</h1>
+
+    <h2>Formatting and Styling</h2>
+    <p>In Google Docs, formatting and styling are done through a user-friendly interface. Users can easily change font styles, colors, and sizes using the toolbar. In HTML documents, formatting is achieved through markup and CSS. HTML provides tags to structure the content, while CSS is used for styling and layout.</p>
+
+    <h2>Collaboration and Sharing</h2>
+    <p>Google Docs allows real-time collaboration where multiple users can edit a document simultaneously. Changes are synced instantly. HTML documents can be edited collaboratively using version control systems, but real-time collaboration is not a built-in feature. Sharing HTML documents often involves file transfers or hosting on web servers.</p>
+
+    <h2>Flexibility and Customization</h2>
+    <p>HTML provides complete control over the structure and design of a document. Custom styles, layouts, and interactive elements can be implemented using HTML, CSS, and JavaScript. Google Docs, while versatile, has limitations in customization. Advanced designs and interactive features may be restricted.</p>
+
+    <h2>Offline Access</h2>
+    <p>Google Docs requires an internet connection for real-time collaboration and saving documents to Google Drive. However, it offers offline access through Google Chrome extensions. HTML documents are files stored locally or on web servers, allowing offline access without additional extensions. They can be opened in web browsers without an internet connection.</p>
+
+    <h2>Learning Curve</h2>
+    <p>Google Docs has a low learning curve, making it accessible to beginners. It's user-friendly and requires minimal technical knowledge. HTML, on the other hand, requires understanding of markup, CSS, and sometimes JavaScript. While more complex, it offers extensive possibilities for web development.</p>
 </body>
 
 </html>
